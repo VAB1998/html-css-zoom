@@ -17,17 +17,14 @@
     float: right;
 }
 
+/* FLEX CONTAINER */
+.flex_container{
+    display: flex;
+}
+
 body{
     background-color: #111;
 }
-
-
-/* NAVIGATION BAR>LI */
-ul>li{
-    list-style-type: none;
-    margin: 15px 15px 20px 0;
-}
-
 
 /* NAVIGATION BAR> NAVIGATION BUTTON */
 button{
@@ -39,6 +36,50 @@ button{
     cursor: pointer;
 }
 
+/* NAVIGATION BAR>LI */
+ul>li{
+    list-style-type: none;
+    margin: 15px 15px 20px 0;
+}
+
+
+/* MEETING PARTICIPANTS> PARTICIPANT SCREEN */
+div.participant_screen{
+    width: 230px;
+    background-color: lightgreen;
+    height: 150px;
+
+    position: relative;
+}
+
+/* PARTICIPANT SCREEN> IMG */
+div.participant_screen>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* PARTICIPANT SCREEN > P */
+div.participant_screen>p{
+    /* Style */
+    background-color: #00000073;
+    color: white;
+    /* Position */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* MEETING PARTICIPANTS */
+#meeting_participants{
+    height: 600px;
+    width: 80%;
+    background-color: lightblue;
+    flex-wrap: wrap;
+
+    /* REMOVE LATER */
+    margin: 0 auto;
+}
 
 
 
