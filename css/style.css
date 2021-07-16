@@ -12,4 +12,34 @@
     clear: both;
 }
 
+/* FLOAT RIGHT */
+.float_right{
+    float: right;
+}
+
+body{
+    background-color: #111;
+}
+
+
+/* NAVIGATION BAR>LI */
+ul>li{
+    list-style-type: none;
+    margin: 15px 15px 20px 0;
+}
+
+
+/* NAVIGATION BAR> NAVIGATION BUTTON */
+button{
+    padding: 6px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(156, 11, 11);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
 
