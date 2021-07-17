@@ -20,6 +20,7 @@
 /* FLEX CONTAINER */
 .flex_container{
     display: flex;
+    
 }
 
 body{
@@ -42,13 +43,31 @@ ul>li{
     margin: 15px 15px 20px 0;
 }
 
+/* SIDE BAR CONTAINER */
+section.side_bar_container{
+    /* Flex Settings */
+    justify-content: center;
+    align-items: center;
+}
+
+/* SIDE BAR */
+div.side_bar{
+    /* Style */
+    color: #ffffff91;
+    font-size: 3em;
+    padding: 0 20px;
+}
 
 /* MEETING PARTICIPANTS> PARTICIPANT SCREEN */
 div.participant_screen{
-    width: 230px;
+    /* Style */
+    min-width: 220px;
     background-color: lightgreen;
-    height: 150px;
-
+    height: 142px;
+    margin-bottom: 8px;
+    /* Flex Settings */
+    flex-basis: 220px;
+    /* Settings */
     position: relative;
 }
 
@@ -72,14 +91,22 @@ div.participant_screen>p{
 
 /* MEETING PARTICIPANTS */
 #meeting_participants{
-    height: 600px;
-    width: 80%;
-    background-color: lightblue;
+    /* Style */
+    height: 80vh;
+    /* background-color: lightblue; */
+    /* Flex Settings */
     flex-wrap: wrap;
-
+    justify-content: space-between;
+    align-content: flex-start;
+    /* Other settigs */
+    overflow-y: hidden;
     /* REMOVE LATER */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
+
+
+
+
 
 
 
