@@ -37,11 +37,7 @@ button{
     cursor: pointer;
 }
 
-/* NAVIGATION BAR>LI */
-ul>li{
-    list-style-type: none;
-    margin: 15px 15px 20px 0;
-}
+
 
 /* SIDE BAR CONTAINER */
 section.side_bar_container{
@@ -100,9 +96,39 @@ div.participant_screen>p{
     align-content: flex-start;
     /* Other settigs */
     overflow-y: hidden;
-    /* REMOVE LATER */
-    /* margin: 0 auto; */
 }
+
+/* NAVIGATION BAR>LI */
+#navigation_bar>ul>li{
+    list-style-type: none;
+    margin: 15px 15px 20px 0;
+}
+
+/* FOOTER OPTIONS */
+.footer_option{
+}
+
+/* FOOTER OPTION SYMBOL */
+.footer_option_symbol{
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+/* FOOTER OPTION> LI */
+.footer_option>li{
+    /* Style */
+    color: white;
+    padding: 10px;
+    /* Other Settings */
+    display: inline-block;
+}
+
+
+
+
+
+
+
 
 
 
