@@ -37,8 +37,8 @@ button{
     cursor: pointer;
 }
 
-/* NAVIGATION BAR> NAVIGATION BUTTON */
-.navigation_bar_button{
+/* FOOTER BAR> FOOTER BUTTON */
+.header_bar_button{
     padding: 7px 10px;
     border-radius: 3px;
     background-color: #4e4e4e;
@@ -66,8 +66,8 @@ div.side_bar{
 div.participant_screen{
     /* Style */
     min-width: 220px;
-    height: 138px;
-    margin-bottom: 8px;
+    height: 136px;
+    margin: 8px;
     /* Flex Settings */
     flex-basis: 220px;
     /* Settings */
@@ -132,7 +132,7 @@ div.participant_screen>p{
 }
 
 /* NAVIGATION BAR>LI */
-#navigation_bar>ul>li{
+#header_bar>ul>li{
     list-style-type: none;
     margin: 15px 15px 20px 0;
 }
