@@ -74,6 +74,20 @@ div.participant_screen{
     position: relative;
 }
 
+/* MAIN- PARTICIPANT SCREEN BUTTON */
+button.participant_screen_button{
+    /* Style */
+    background-color: #4e4e4e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* Position Settings */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
 /* FOOTER- FOOTER OPTION SYMBOL */
 i.footer_option_symbol{
     /* Style */
@@ -107,11 +121,16 @@ div.participant_screen>p{
     color: #2196f3;
 }
 
+/* MAIN- PARTICIPANT SCREEN BUTTON */
+/* Hover Effect */
+.participant_screen:hover .participant_screen_button{
+    z-index: 1;
+}
+
 /* MEETING PARTICIPANTS */
 #meeting_participants{
     /* Style */
     height: 80vh;
-
     /* Flex Settings */
     flex-wrap: wrap;
     justify-content: space-between;
@@ -164,3 +183,7 @@ div.participant_screen>p{
 #right_footer_option>li{
     height: 100%;
 }
+
+
+
+
