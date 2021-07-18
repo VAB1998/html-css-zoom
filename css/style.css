@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+body{
+    background-color: #111;
+}
+
+li{
+    list-style-type: none;
+}
+
 /* CLEARFIX */
 .clearfix::after{
     content: "";
@@ -22,18 +30,18 @@
     display: flex;
 }
 
-body{
-    background-color: #111;
+/* BUTTON- Basic Settings */
+button{
+    border: none;
+    cursor: pointer;
 }
 
 /* NAVIGATION BAR> NAVIGATION BUTTON */
-button{
+.navigation_bar_button{
     padding: 6px 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(156, 11, 11);
+    border-radius: 3px;
+    background-color: #4e4e4e;
     color: white;
-    cursor: pointer;
 }
 
 
@@ -57,8 +65,7 @@ div.side_bar{
 div.participant_screen{
     /* Style */
     min-width: 220px;
-    background-color: lightgreen;
-    height: 142px;
+    height: 138px;
     margin-bottom: 8px;
     /* Flex Settings */
     flex-basis: 220px;
@@ -69,8 +76,8 @@ div.participant_screen{
 /* FOOTER- FOOTER OPTION SYMBOL */
 i.footer_option_symbol{
     /* Style */
-    font-size: 2em;
-    padding-right: 10px;
+    font-size: 1.6em;
+    padding-right: 15px;
 }
 
 /* MAIN- PARTICIPANT SCREEN> IMG */
@@ -85,9 +92,11 @@ div.participant_screen>p{
     /* Style */
     background-color: #00000073;
     color: white;
+    font-size: .8em;
+    padding: 3px;
     /* Position */
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
 }
 
@@ -105,10 +114,11 @@ div.participant_screen>p{
 }
 
 /* FOOTER OPTION> LI */
-ul.footer_option>li{
+#left_footer_option>li,
+#center_footer_option>li{
     /* Style */
     color: white;
-    padding: 10px;
+    padding: 6px 10px;
     /* Other Settings */
     display: inline-block;
 }
@@ -122,7 +132,6 @@ ul.footer_option>li{
 /* FOOTER BAR */
 #footer_bar{
     /* Style */
-    height: 70px;
     background-color: thistle;
     width: 100%;
     /* Flex Settings */
@@ -133,3 +142,16 @@ ul.footer_option>li{
     position: fixed;
     bottom: 0;
 }
+
+/* FOOTER- RIGHT FOOTER OPTION BUTTON */
+#right_footer_option>li{
+    height: 100%;
+}
+
+#right_footer_option_button{
+    color: red;
+    height: 100%;
+    padding: 0 12px;
+    background-color: #4e4e4e;
+}
+
